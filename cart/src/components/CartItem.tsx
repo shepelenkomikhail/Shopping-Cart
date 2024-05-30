@@ -9,7 +9,7 @@ type CartItemProps = {
 };
 
 export function CartItem({ id, quantity }: CartItemProps) {
-  const { closeCart, removeFromCart } = useShoppingCart();
+  const { removeFromCart } = useShoppingCart();
   const item = storeItems.find((item) => item.id == id);
   if (!item) return null;
 

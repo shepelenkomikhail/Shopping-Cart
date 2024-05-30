@@ -4,7 +4,7 @@ import { CountAllQnt } from "../utilities/CountAllQnt";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export function NavBar() {
-  const { openCart, closeCart, cartItems } = useShoppingCart();
+  const { openCart, cartItems } = useShoppingCart();
   return (
     <NavBarBS className="bg-white shadow-sm mb-3">
       <Container>
