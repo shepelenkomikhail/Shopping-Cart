@@ -1,1 +1,1 @@
-Simple online shopping cart using TypeScript and React.
+Simple online shopping cart using TypeScript, Bootstrap and React.
